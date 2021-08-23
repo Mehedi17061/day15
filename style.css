@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container-section{
+    width: 1400px;
+    margin: auto;
+   
+}
+/* .container{
+    width: 800px;
+} */
+.header-section{
+    background: #178670;
+    padding: 19px 0;
+}
+.header-section .logo{
+    display: inline-block;
+    width: 48%;
+}
+.header-section .logo h1{
+    color: white;
+    margin-left: 87px;
+    font-size: 36px;
+    font-weight: 500;
+}
+.header-section .menu{
+    text-align: end;
+    display: inline-block;
+    width: 48%;
+}
+.header-section .menu ul {
+    text-align: end;
+}
+.header-section .menu ul li{
+    display: inline-block;
+}
+.header-section .menu ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px 10px;
+    display: inline-block;
+    
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.banner-section{
+    background: url(../image/header-bg01.jpg) bottom right scroll;
+    background-size: cover;
+    padding: 150px 0px;
+    /* padding-right: 134px; */
+}
+.banner-section .banner{
+    text-align: center;
+}
+.banner-section .banner h1{
+    padding: 10px;
+    color:white;
+    margin: 5px 0;
+    text-transform: uppercase;
+    font-size: 59px;
+}
+.banner-section .banner h3{
+    padding: 10px;
+    color:beige;
+    margin: 4px 0;
+    font-size: 20px;
+}
+.banner-section .banner a{
+    text-decoration: none;
+    background:transparent;
+    border: 1px solid white;
+    color:white;
+    text-transform: uppercase;
+    padding: 15px 28px;
+    margin: 27px 0 0;
+    border-radius: 7px;
+    display: inline-block;
+    font-size: 18px;
+}
+
+/* service-section */
+.service-section {
+    text-align: center;
+    padding: 100px;
+    border-bottom: 2px  solid #178670;
+}
+.service-section .service{
+    padding: 64px 0px;
+}
+.service-section .service  h1{
+    padding: 25px 0px;
+    font-size: 45px;
+}
+.service-section .service  p{
+    margin: 8px 0 66px;
+    font-size: 20px;
+    padding-bottom: -18px;
+    color: #B0B0B0;
+}
+.service-section .service .group{
+    width: 22%;
+    display: inline-block;
+    padding: -2px;
+    margin: 42px 7px 0px;
+    font-size: 16px;
+    padding: 60px 9px 20px;
+}
+.service-section .service .group p{
+    font-size: 18px;
+}
+.service-section .service .group i{
+    font-size: 50px;
+    color: #0DBF9B;
+    margin-bottom: 1px;
+    padding: 25px 0px;
+}
+
+
+/* content-section */
+.content-section{
+    /* position: relative; */
+    text-align: center;
+    padding: 105px 0px;
+    margin: 0px 0px 41px;
+    /* border: 2px solid rebeccapurple; */
+    height: 500px;
+}
+.content-section .content{
+    position: relative;
+}
+.content-section .content .text h1{
+    
+}
+.content-section .content .text p{padding: 28px 0px;font-size: 20px;/* margin-bottom: 50px; */}
+.content-section .content .content-picture{
+    display: inline-block;
+    width: 48%;
+    position: absolute;
+    left: 0;
+    top: 155px;
+}
+.content-section  .content .content-text{
+    width: 50%;
+    display: inline-block;
+    text-align: left;
+    position: absolute;
+    /* left: 0; */
+    top: 170px;
+    right: 0;
+}
+
+.content-section  .content .content-text h2{
+    padding: 10px 0px;
+}
+.content-section  .content .content-text p{
+    font-size: 20px;
+}
+
+/* contact-section */
+.contact-section{
+    text-align: center;
+    background:#F6F6F6;
+    padding: 87px 0px 20px;
+}
+.contact-section .contact {}
+.contact-section .contact p{
+    padding: 10px 0px;
+   
+    font-size: 19px;
+}
+.contact-section .contact .contact-group{
+    display: inline-block;
+    padding: 30px 40px;
+    margin: 23px 68px;
+    /* position: relative; */
+}
+.contact-section .contact .middle{
+  
+    position: relative;
+    top:-22px;
+}
+.contact-section .contact .contact-group i{
+    padding: 10px 2px;
+    font-size: 20px;
+    color:#0fb190;
+}
+
+/* social-section */
+.social-section{
+    background: #0DBF9B;
+    padding: 20px 0px;
+}
+.social-section .social-menu{}
+.social-section .social-menu ul{
+    text-align: center;
+}
+.social-section .social-menu ul li{
+    display: inline-block;
+    color:#fff;
+    padding: 5px 7px ;
+    font-size: 20px;
+}
+
+/* footer */
+
+.footer-section{
+    background: black;
+    text-align: center;
+    
+}
+.footer-section p{
+    padding: 15px;
+    color: #686464;
+    font-size: 20px;
+}
+
+h1{
+    font-size: 40px;
+    padding: 10px 0px;
+}
+p{
+    color: #afacac;
+    font-size: 20px;
+    padding: 10px 0px 20px;
+}
